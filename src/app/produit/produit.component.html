@@ -1,0 +1,15 @@
+<div class="row mx-auto">
+    <div *ngFor="let item of dataarray" class="col-md-4 col-sm-6">
+      <div class="card mb-4" style="width: 18rem;">
+        <img src="{{item.image}}" class="card-img-top" alt="{{item.titre}}">
+        <div class="card-body">
+          <p class="card-text"> Titre : {{item.titre}}</p>
+          <p class="card-text"> Description : {{item.description}}</p>
+          <p class="card-text"> Prix: {{item.prix}}</p>
+          <p class="card-text"> Categorie : {{item.categorie}}</p>
+          <p class="card-text"> Stock : {{item.stock}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
