@@ -12,6 +12,6 @@ export class ProduitserviceService {
   {}
 
   getProduits(): Observable<Produit[]>{
-    return this.serviceProduit.get<Produit[]>("https://localhost:7270/Produitall");
+    return this.serviceProduit.get<Produit[]>("https://gproduit.azurewebsites.net/Produitall");
   }
 }
